@@ -1,0 +1,33 @@
+
+   
+    <form class="col-lg-12" action="methodcheck" method="POST" enctype="multipart/form-data">
+        <div> 
+        <div class="form-group row">
+          <label for="Title" class="col-sm-3 col-form-label">Name:</label>
+          <div class="col-sm-6">
+          
+          <input type="text" id="Title" name="Title" class="form-control Title" placeholder="Enter Title here"required>
+          </div>
+        </div>
+        <div class="form-group row">
+            <label for="txtEditor" class="col-sm-3 col-form-label">Address:</label>
+            <div class="col-sm-6">
+          
+                <textarea id="txtEditor" name="txtEditor" class="form-control txtEditor" placeholder="Enter Description here" required></textarea>
+            </div>
+        </div>
+        <div class="form-group row">
+            <label for="Document" class="col-sm-3 col-form-label">PDF:</label>
+            <div class="col-sm-6">
+                <input type="file" class="form-control Document" name="Document" id="Document" accept="application/pdf" required>
+            </div>
+        </div>
+    
+</div>
+<div class="form-group ">
+                    
+        <button type="submit" class="btn btn-primary submit" name="editmedia" id="editmedia">Submit</button>
+        <input type="reset" value="Reset" class="btn btn-default Reset">
+        <button type="button" class="btn btn-danger" data-dismiss="modal">Cancel</button>        
+</div>
+</form>
